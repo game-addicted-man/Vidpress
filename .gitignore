@@ -1,0 +1,16 @@
+# 빌드 결과물 — exe와 설치 파일은 저장소가 아니라 GitHub Releases에 올립니다.
+/dist/
+*.exe
+
+# FFmpeg 바이너리 (100MB가 넘는 DLL이 있어 GitHub 저장소에 넣을 수 없습니다)
+/ffmpeg/
+
+# 기타
+*.zip
+*.log
+/vendor/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
